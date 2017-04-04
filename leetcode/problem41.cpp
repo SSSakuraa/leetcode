@@ -46,7 +46,7 @@ int firstMissingPositive(vector<int>& nums) {
 	return res;
 }
 
-int main() {
+int problem41() {
 	vector<int> nums = { 3,4,-1,1 };
 	cout << firstMissingPositive(nums) << endl;
 	return 0;
